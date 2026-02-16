@@ -1,0 +1,11 @@
+node_modules/**/*
+dist/**/*
+coverage/**/*
+.yarn/**/*
+.pnp.*
+
+# macOS
+.DS_Store
+
+# phpstorm
+.idea/

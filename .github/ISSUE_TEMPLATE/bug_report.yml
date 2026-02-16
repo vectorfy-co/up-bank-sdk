@@ -1,0 +1,27 @@
+name: '🐞 Bug Report'
+description: 'Create a bug report to help improve @vectorfyco/up-bank-sdk.'
+title: 'bug: '
+labels: ['🐞❔ unconfirmed bug']
+body:
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        Please paste the output of this command:
+        ```bash
+        node -v && pnpm -v && npx envinfo --system --binaries --npmPackages
+        ```
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear description of what happened and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Include code snippets or links to reproduce this issue.
+    validations:
+      required: true
